@@ -91,7 +91,7 @@ docker load < mmrda_build.tar
 #### Step 6: Run Docker Image
 Run the Docker image in detached mode:
 ```bash
-docker run -d --name mmrda_build -p 8085:80 mmrda_build
+docker run -d --name mmrda_backend2 -p 8000:8000 mmrda_backend2
 ```
 
 ---
